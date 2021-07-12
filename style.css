@@ -22,8 +22,8 @@ p {
     padding: 0.5em;
 }
 .link_base {
-    width: 3em;
-    height: 3em;
+    width: 3.5em;
+    height: 3.5em;
     background-repeat: no-repeat;
     display: block;
     background-size: 95%;
@@ -48,13 +48,17 @@ main {
 }
 
 .icon {
-    min-height: 130px;
-    min-width: 129px;
-    background-image: url('./icon.png');
+    min-height: 112px;
+    min-width: 82px;
+    background-position: center;
+    background-image: url(./icon.png);
+
     background-repeat: no-repeat;
     background-size: contain;
 }
-
+.title_card h1{
+    margin-bottom: 0.5em;
+}
 .title_card p{
     margin:0;
 }
