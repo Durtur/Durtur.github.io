@@ -74,9 +74,7 @@ main {
 }
 
 @media (max-width: 600px) {
-    .cover_img{
-        background-size: 778px;
-    }
+
     .card {
         width: 100vw;
     }
@@ -87,9 +85,7 @@ main {
 }
 
 @media (min-width: 601px) {
-    .cover_img{
-        background-size: 920px;
-    }
+
     .card {
         width: 70vw;
         max-width: 60em;
@@ -102,18 +98,45 @@ main {
         border-bottom-left-radius:5px;
     }
 }
-
+.fade_in {
+    animation: fadein 1.5s ease-in;
+  }
+  
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+a{
+    font-family: var(--basic-font);
+}
+.cover_header{
+    font-size:3em;
+   color:#346167;
+    padding:0.5em;
+    border-radius:5px;
+    margin-top:1em;
+    margin-left:1em;
+    height:1em;
+    text-align: center;
+    font-family:var(--header-font);
+}
 .cover_img {
-    height: 100vh;
-
+    height: 80vh;
+    width:100vw;
     margin: 0;
-    
-
+    display: flex;
+    background-size:contain;
+    background-color:#eff4de;
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y:top;
+    background-position-y: 101%;
     padding: 0;
-    background-image: url(img/dungeoneer.JPG);
+    background-image: url(img/shutterstock_774097219.png);
 }
 
 .bullet_article {
@@ -163,7 +186,7 @@ body {
     min-width: 100vw;
     min-height: 100vh;
     color: white;
-    background-color: black;
+    background-color: #0d1c1f;
     flex-flow: column nowrap;
 }
 
@@ -181,6 +204,8 @@ body {
 .download_button {
     background-color: #093509;
     margin-top: 2em !important;
+    width:10em;
+    text-align:center;
     border-radius: 5px;
     padding: 1em;
     font-size: 1.25em;
