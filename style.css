@@ -152,7 +152,7 @@ a {
 }
 
 .cover_img {
-    height: 80vh;
+    height: 88vh;
     width: 100vw;
     margin: 0;
     display: flex;
@@ -178,6 +178,7 @@ a {
     transition: all 300ms;
     margin-bottom: 0 !important;
     margin-top: 0 !important;
+    height:120px;
 }
 
 .bullet_article p {
