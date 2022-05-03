@@ -77,14 +77,15 @@ main {
     border-radius: 5px;
 }
 
-.bullet_article:hover .bullet_img_rotate {
-    transform: rotate(180deg);
-}
+
 
 @media (max-width: 600px) {
 
     .card {
         width: 100vw;
+    }
+    .sub_text{
+        margin-top: -3em;
     }
 
     .sharebar {
@@ -144,9 +145,10 @@ a {
     font-size: 1.5em;
     padding: 2em;
     margin: auto;
-    margin-top: -3em;
-    width: 30em;
-    height: 4em;
+
+    max-width: 30em;
+    width:60%;
+
 }
 
 .cover_img {
